@@ -34,7 +34,6 @@ print(" Okay you have " , number_of_items, "items so .... ")
 def divide (x, y):
     return x // y
 
-
 #dividing number of items by big boxes 
 large_boxes_needed = ((divide(number_of_items, big_box)))
 print(" you will need ",large_boxes_needed, " Large boxes ")
@@ -52,7 +51,6 @@ print(" you will need ", med_boxes_needed, " Medium boxes" )
 
 med_boxes_remaining = (big_boxes_remaining % med_box)
 (med_boxes_remaining)
-
 
 #dividing number of items by small_boxes_remaining
 small_boxes_needed = ((divide(med_boxes_remaining, small_box)))
